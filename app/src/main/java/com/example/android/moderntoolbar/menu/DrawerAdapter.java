@@ -15,7 +15,7 @@ import java.util.Map;
  * Created by yarolegovich on 25.03.2017.
  */
 
-//@SuppressWarnings({"rawtypes", "ConstantConditions"})
+@SuppressWarnings({"rawtypes", "ConstantConditions"})
 public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder> {
 
     private List<com.example.android.moderntoolbar.menu.DrawerItem> items;

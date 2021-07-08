@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements com.example.andro
 
         Toolbar toolbar = findViewById(R.id.toolbar);
 //        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
 
         slidingRootNav = new SlidingRootNavBuilder(this)
                 .withToolbarMenuToggle(toolbar)
